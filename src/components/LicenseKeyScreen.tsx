@@ -10,7 +10,7 @@ export function LicenseKeyScreen({ onSuccess }: LicenseKeyScreenProps) {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const GUMROAD_PRODUCT_PERMALINK = 'invoicedesk';
+  const GUMROAD_PRODUCT_PERMALINK = 'YlmE8G7oWzMth6rUOwAi1g==';
   const TEST_KEY = 'INVOICEDESK-TEST-2024';
 
   const handleSubmit = async (e: React.FormEvent) => {
